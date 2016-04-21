@@ -1,0 +1,272 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:900,300,600);
+* {
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 0; }
+
+.cleaner {
+  clear: both; }
+
+/*color de fondo del body */
+body {
+  margin: 0 auto; }
+
+/*imagen de perfil */
+.img-perfil {
+  float: right;
+  width: 23em;
+  height: 23em;
+  margin: 0px 0 0 10px;
+  border-radius: 25px; }
+
+/*contenedor general */
+.wrapper {
+  width: 1200px;
+  background-color: rgba(255, 255, 21, 0.6);
+  margin: 5px auto;
+  padding: 25px;
+  border-radius: 25px;
+  text-decoration: none; }
+
+/*nombres */
+.nombres {
+  text-align: right; }
+  .nombres h1 {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 900;
+    font-size: 130px;
+    line-height: 72px;
+    color: #015305; }
+  .nombres em {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 60px;
+    color: #027c08; }
+
+/*titulos de cada seccion */
+h2 {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  color: #FC5A02;
+  font-style: normal; }
+
+/*textos de relleno */
+p {
+  font-size: 20px;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  line-height: 25px;
+  color: #027c08; }
+
+/*iconos de cada seccion */
+.log {
+  float: left;
+  width: 60px;
+  height: auto;
+  margin: 0; }
+
+/*logos de los lenguajes */
+.leng {
+  height: 120px;
+  width: auto;
+  margin: 0 auto; }
+
+/*estrellas, nivel */
+.stars {
+  width: 120px;
+  margin: 0 auto; }
+
+/*tabla de lenguajes */
+.tabla-leng {
+  margin: 0 auto; }
+  .tabla-leng td {
+    padding: 0 30px 0; }
+
+/*titulos de escuelas */
+h3 {
+  font-size: 25px;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  color: #027c08; }
+
+.lista-redes {
+  display: inline-block;
+  margin: -12em 0 0 0; }
+
+/*imagenes redes sociales */
+.red {
+  float: left;
+  width: 75px;
+  height: auto; }
+
+input {
+  width: 18em;
+  height: 4em;
+  background-color: #ffff15;
+  margin: 0;
+  font-size: 20px;
+  font-family: tahoma, verdana;
+  border: none;
+  border-radius: 10px; }
+
+.nombre {
+  margin-bottom: 2em; }
+
+textarea {
+  width: 34em;
+  height: 10em;
+  background-color: #ffff15;
+  margin: 0;
+  font-size: 20px;
+  font-family: tahoma, verdana;
+  border: none;
+  border-radius: 10px; }
+
+.boton {
+  width: 5em;
+  height: 2em;
+  float: right;
+  background-color: #FC5A02;
+  margin: 0;
+  font-size: 20px;
+  padding: 1px 1px;
+  font-family: tahoma, verdana;
+  color: #541e01;
+  border: none;
+  border-radius: 10px; }
+
+/************************************************************************************************************************ */
+/* RESPONSIVEEE */
+@media (max-width: 860px) {
+  /*contenedor general */
+  .wrapper {
+    width: 800px; }
+
+  /*imagen de perfil */
+  .img-perfil {
+    float: right;
+    width: 14em;
+    height: 14em; }
+
+  /*logos de los lenguajes */
+  .leng {
+    height: 90px; }
+
+  /*estrellas, nivel */
+  .stars {
+    width: 90px; }
+
+  input {
+    width: 12em;
+    height: 3em; }
+
+  .nombre {
+    margin-bottom: 2em; }
+
+  textarea {
+    width: 20em;
+    height: 8em; } }
+/**************************************************************************************** */
+@media (max-width: 700px) {
+  /*contenedor general */
+  .wrapper {
+    width: 600px; }
+
+  /*imagen de perfil */
+  .img-perfil {
+    float: right;
+    width: 10em;
+    height: 10em; }
+
+  /*nombres */
+  .nombres h1 {
+    font-size: 80px;
+    line-height: 45px; }
+  .nombres em {
+    font-size: 25px;
+    line-height: 40px;
+    color: #027c08; }
+
+  /*tabla de lenguajes */
+  .tabla-leng td {
+    padding: 0 15px 0; }
+
+  input {
+    width: 8em;
+    height: 2em; }
+
+  .nombre {
+    margin-bottom: 1.5em; }
+
+  textarea {
+    width: 15em;
+    height: 6em; } }
+/********************************************************** */
+@media (max-width: 480px) {
+  /*contenedor general */
+  .wrapper {
+    width: 380px;
+    padding: 10px; }
+
+  /*imagen de perfil */
+  .img-perfil {
+    width: 8em;
+    height: 8em;
+    margin: 0px 0 0 5px; }
+
+  /*nombres */
+  .nombres h1 {
+    font-size: 55px;
+    line-height: 31px; }
+  .nombres em {
+    font-size: 18px;
+    line-height: 30px;
+    color: #027c08; }
+
+  .red {
+    width: 55px; }
+
+  .lista-redes {
+    display: inline-block;
+    margin-bottom: -30px; }
+
+  p {
+    font-size: 15px; }
+
+  /*tabla de lenguajes */
+  .tabla-leng td {
+    padding: 0 2px 0; }
+
+  .leng {
+    height: 65px; }
+
+  .stars {
+    width: 70px; }
+
+  input {
+    width: 5em;
+    height: 2em; }
+
+  .nombre {
+    margin-bottom: 1em; }
+
+  textarea {
+    width: 9em;
+    height: 8em; }
+
+  h3 {
+    font-size: 20px; }
+
+  h2 {
+    font-size: 20px; }
+
+  .log {
+    width: 45px; }
+
+  .boton {
+    width: 3em;
+    height: 2em; } }
+
+/*# sourceMappingURL=styles.css.map */

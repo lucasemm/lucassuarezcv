@@ -1,0 +1,259 @@
+.cleaner
+	clear: both
+
+/*color de fondo del body*/
+body
+	margin: 0 auto
+
+/*imagen de perfil*/
+.img-perfil
+	float: right
+	width: 23em
+	height: 23em
+	margin: 0px 0 0 10px
+	border-radius: 25px
+
+/*contenedor general*/
+.wrapper
+	width: $main-width*1px
+	background-color: rgba(255,255,21,0.6)
+	margin: 5px auto
+	padding: 25px
+	border-radius: 25px
+	+enlaces
+
+/*nombres*/
+.nombres
+	text-align: right
+	h1
+		font-family: $text2
+		font-weight: 900
+		font-size: 130px
+		line-height: 72px
+		color: $main-color1/3
+	em
+		font-family: $text2
+		font-weight: 300
+		font-size: 25px
+		line-height: 60px
+		color: $main-color1/2
+
+/*titulos de cada seccion*/
+h2
+	+titulos
+
+/*textos de relleno*/
+p
+	+textos
+
+/*iconos de cada seccion*/
+.log
+	+logos
+
+/*logos de los lenguajes*/
+.leng
+	+languajes
+
+/*estrellas, nivel*/
+.stars
+	width: 120px
+	margin: 0 auto
+
+/*tabla de lenguajes*/
+.tabla-leng
+	margin: 0 auto
+	td
+		padding: 0 30px 0
+
+/*titulos de escuelas*/
+h3
+	+school
+
+.lista-redes
+	display: inline-block
+	margin: -12em 0 0 0
+
+/*imagenes redes sociales*/
+.red
+	+redes
+
+input
+	width: 18em
+	height: 4em
+	background-color: rgba(255,255,21,1)
+	+campos
+
+.nombre	
+	margin-bottom: 2em
+
+textarea
+	width: 34em
+	height: 10em
+	background-color: rgba(255,255,21,1)
+	+campos
+
+.boton
+	width: 5em
+	height: 2em
+	float: right
+	background-color: $main-color2
+	margin: 0
+	font-size: 20px
+	padding: 1px 1px
+	font-family: $text1
+	color: $main-color2/3
+	border: none
+	border-radius: 10px
+
+
+
+/*************************************************************************************************************************/
+
+
+
+
+/* RESPONSIVEEE */
+
+@media (max-width: 860px)
+
+	/*contenedor general*/
+	.wrapper
+		width: 800px
+
+	/*imagen de perfil*/
+	.img-perfil
+		float: right
+		width: 14em
+		height: 14em
+
+	/*logos de los lenguajes*/
+	.leng
+		height: 90px
+
+	/*estrellas, nivel*/
+	.stars
+		width: 90px
+
+
+	input
+		width: 12em
+		height: 3em
+
+	.nombre	
+		margin-bottom: 2em
+
+	textarea
+		width: 20em
+		height: 8em
+
+/*****************************************************************************************/
+
+@media (max-width: 700px)
+
+	/*contenedor general*/
+	.wrapper
+		width: 600px
+
+	/*imagen de perfil*/
+	.img-perfil
+		float: right
+		width: 10em
+		height: 10em		
+
+
+	/*nombres*/
+	.nombres
+		h1
+			font-size: 80px
+			line-height: 45px
+		em
+			font-size: 25px
+			line-height: 40px
+			color: $main-color1/2
+
+	/*tabla de lenguajes*/
+	.tabla-leng
+		td
+			padding: 0 15px 0
+
+	input
+		width: 8em
+		height: 2em
+
+	.nombre	
+		margin-bottom: 1.5em
+
+	textarea
+		width: 15em
+		height: 6em
+
+/***********************************************************/
+
+@media (max-width: 480px)
+
+	/*contenedor general*/
+	.wrapper
+		width: 380px
+		padding: 10px
+
+	/*imagen de perfil*/
+	.img-perfil
+		width: 8em
+		height: 8em		
+		margin: 0px 0 0 5px
+
+	/*nombres*/
+	.nombres
+		h1
+			font-size: 55px
+			line-height: 31px
+		em
+			font-size: 18px
+			line-height: 30px
+			color: $main-color1/2
+
+	.red
+		width: 55px
+
+	.lista-redes
+		display: inline-block
+		margin-bottom: -30px
+
+	p
+		font-size: 15px
+
+	/*tabla de lenguajes*/
+	.tabla-leng
+		td
+			padding: 0 2px 0
+
+	.leng
+		height: 65px
+
+	.stars
+		width: 70px
+
+	input
+		width: 5em
+		height: 2em
+
+	.nombre	
+		margin-bottom: 1em
+
+	textarea
+		width: 9em
+		height: 8em
+
+	h3
+		font-size: 20px
+
+	h2
+		font-size: 20px
+
+	.log
+		width: 45px
+
+	.boton
+		width: 3em
+		height: 2em
+
